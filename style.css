@@ -127,12 +127,12 @@ body {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    margin: 0 -10px; /* Adiciona margens negativas para compensar as margens internas dos cards */
+    margin: 0 -10px; 
 }
 
 .card {
-    width: calc(50% - 80px); /* Define a largura dos cards */
-    margin: 20px 10px; /* Adiciona margens internas aos cards */
+    width: calc(50% - 80px); 
+    margin: 20px 10px; 
     background-color: #f2f2f2;
     border-radius: 10px;
     overflow: hidden;
@@ -140,13 +140,13 @@ body {
 }
 
 .card:hover {
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Adiciona uma sombra sutil */
-    transform: translateY(-5px); /* Levita o card para cima */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); 
+    transform: translateY(-5px); 
 }
 
 .card img {
     width: 100%;
-    height: 200px; /* Defina a altura desejada para as imagens */
+    height: 200px; 
     object-fit: cover;
     display: block;
 }
