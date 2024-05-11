@@ -380,6 +380,15 @@ footer {
     .card {
         width: calc(100% - 20px);
     }
+
+    .form-container {
+        flex-direction: column;
+    }
+
+    .form-col {
+        flex-basis: 100%; 
+        margin-bottom: 20px; 
+    }
 }
 
 @media screen and (max-width: 480px) {
@@ -409,16 +418,5 @@ footer {
 
     .container-home input[type="button"] {
         margin-top: 10px; 
-    }
-}
-
-@media screen and (max-width: 768px) {
-    .form-container {
-        flex-direction: column;
-    }
-
-    .form-col {
-        flex-basis: 100%; 
-        margin-bottom: 20px; 
     }
 }
