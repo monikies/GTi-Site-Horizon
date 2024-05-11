@@ -13,13 +13,6 @@ body {
     padding: 0;
 }
 
-.site-container {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 20px;
-}
-
-
 .navbar {
     background-color: #C8C8C8; 
     background-size: cover;
@@ -127,12 +120,12 @@ body {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    margin: 0 -10px; 
+    margin: 0 -10px; /* Adiciona margens negativas para compensar as margens internas dos cards */
 }
 
 .card {
-    width: calc(50% - 80px); 
-    margin: 20px 10px; 
+    width: calc(50% - 80px); /* Define a largura dos cards */
+    margin: 20px 10px; /* Adiciona margens internas aos cards */
     background-color: #f2f2f2;
     border-radius: 10px;
     overflow: hidden;
@@ -140,13 +133,13 @@ body {
 }
 
 .card:hover {
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); 
-    transform: translateY(-5px); 
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Adiciona uma sombra sutil */
+    transform: translateY(-5px); /* Levita o card para cima */
 }
 
 .card img {
     width: 100%;
-    height: 200px; 
+    height: 200px; /* Defina a altura desejada para as imagens */
     object-fit: cover;
     display: block;
 }
@@ -244,6 +237,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: flex-start; 
+
 }
 
 .form-col {
@@ -253,6 +247,8 @@ body {
 label {
     display: block;
     margin-bottom: 5px;
+    font-weight: bold;
+
 }
 
 input[type="text"],
@@ -262,7 +258,7 @@ textarea {
     width: 100%;
     padding: 8px;
     border: 1px solid #ccc;
-    border-radius: 4px;
+    border-radius: 8px;
     box-sizing: border-box;
     margin-bottom: 10px;
 }
@@ -297,9 +293,8 @@ p {
     
 }
 section {
-    
     margin: 0 auto;
-    padding: 20px;
+    padding: 20px 15%;
    
 }
 
@@ -380,15 +375,6 @@ footer {
     .card {
         width: calc(100% - 20px);
     }
-
-    .form-container {
-        flex-direction: column;
-    }
-
-    .form-col {
-        flex-basis: 100%; 
-        margin-bottom: 20px; 
-    }
 }
 
 @media screen and (max-width: 480px) {
@@ -418,5 +404,16 @@ footer {
 
     .container-home input[type="button"] {
         margin-top: 10px; 
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .form-container {
+        flex-direction: column;
+    }
+
+    .form-col {
+        flex-basis: 100%; 
+        margin-bottom: 20px; 
     }
 }
