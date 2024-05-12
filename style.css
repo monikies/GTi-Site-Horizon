@@ -13,6 +13,11 @@ body {
     padding: 0;
 }
 
+header {
+    margin: 0 auto;
+    padding: 20px 15%;
+}
+
 .navbar {
     background-color: #C8C8C8; 
     background-size: cover;
@@ -322,6 +327,7 @@ section {
     border-radius: 8px;
     cursor: pointer;
     transition: background-color 0.3s ease;
+    margin: 16px;
 }
 
 .input-button:hover {
