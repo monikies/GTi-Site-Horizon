@@ -299,6 +299,10 @@ header {
     color: #13293D;
 }
 
+.team-member a i {
+    font-size: 32px; 
+}
+
 #partners {
     background-color: #13293D;
     color: #fff;
@@ -364,6 +368,45 @@ textarea {
 #contact .container {
     text-align: center; 
 }
+
+footer {
+    background-color: #13293D;
+    color: #fff;
+    text-align: center;
+    margin: 0 auto;
+    padding: 24px 15%;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left-section,
+.middle-section,
+.right-section {
+    flex: 1;
+}   
+
+.middle-section {
+    display: flex;
+    justify-content: center;
+}
+
+.middle-section a {
+    color: #fff;
+    margin-right: 22px; 
+}
+
+.middle-section a i {
+    font-size: 32px; 
+}
+
+.right-section p {
+    margin: 0;
+}
+
 
 h1 {
     font-size: 38px;
