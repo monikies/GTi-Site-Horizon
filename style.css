@@ -71,7 +71,7 @@ header {
     background-size: cover;
     background-position: center;
     color: #13293D; 
-    text-align: center;
+
     
 }
 
@@ -166,10 +166,19 @@ header {
     color: #13293D;
 }
 
+#about .title {
+    color: #fff;
+}
+
+#about .center-logo {
+    display: block;
+    margin: 24px auto 0;
+}
+
 #about .timeline {
     position: relative;
     max-width: 1200px;
-    margin: 100px auto;
+    margin: 24px auto;
 }
 
 #about .container {
@@ -221,7 +230,14 @@ header {
 }
 
 #about .text-box h2 {
-    font-weight: 600;   
+    font-size: 28px;
+    font-weight: bold;   
+}
+
+#about .subtitle {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 12px;
 }
 
 #about .text-box small {
@@ -314,6 +330,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: flex-start; 
+    text-align: start;
 
 }
 
@@ -342,6 +359,10 @@ textarea {
 
 textarea {
     resize: vertical;
+}
+
+#contact .container {
+    text-align: center; 
 }
 
 h1 {
