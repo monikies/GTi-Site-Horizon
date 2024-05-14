@@ -1,3 +1,4 @@
+/* Estilos Globais */
 body {
     font-family: 'Open Sans', sans-serif;
     background-color: #C8C8C8; 
@@ -10,11 +11,13 @@ body {
     padding: 0;
 }
 
+/* Header */
 header {
     margin: 0 auto;
     padding: 20px 15%;
 }
 
+/* Navbar */
 .navbar {
     background-color: #C8C8C8; 
     color: #13293D; 
@@ -56,12 +59,13 @@ header {
     color: #13293D;
     text-decoration: none;
     margin-left: 20px; 
-    }
+}
 
 #menu a:hover {
     font-weight: bold;
 }
 
+/* Seção Home */
 .home-section {
     background-color: #C8C8C8; 
     color: #13293D; 
@@ -77,6 +81,7 @@ header {
     margin-top: 24px; 
 }
 
+/* Seção Serviços */
 #services {
     background-color: #13293D;
     color: #ffffff;
@@ -95,7 +100,6 @@ header {
     width: 20%; 
 }
 
-
 .service p {
     margin-top: 12px;
     font-size: 18px; 
@@ -105,9 +109,9 @@ header {
 .service img {
     max-width: 100%; 
     height: auto; 
-    
 }
 
+/* Seção Portifólio */
 #portfolio {
     background-color: #C8C8C8;
     color: #13293D;
@@ -155,6 +159,7 @@ header {
     font-size: 14px;
 }
 
+/* Seção Sobre */
 #about {
     background-color: #13293D;
     color: #13293D;
@@ -273,6 +278,7 @@ header {
     right: auto; 
 }
 
+/* Seção Time */
 #team {
     background-color: #C8C8C8;
     color: #13293D;
@@ -297,6 +303,7 @@ header {
     font-size: 32px; 
 }
 
+/* Seção Parceiros */
 #partners {
     background-color: #13293D;
     color: #fff;
@@ -312,11 +319,7 @@ header {
     vertical-align: top; 
 }
 
-#contact {
-    background-color: #C8C8C8;
-    color: #13293D;
-}
-
+/* SEção Contato */
 #contact {
     background-color: #C8C8C8;
     color: #13293D;
@@ -329,7 +332,6 @@ header {
     justify-content: space-between;
     align-items: flex-start; 
     text-align: start;
-
 }
 
 .form-col {
@@ -340,7 +342,6 @@ label {
     display: block;
     margin-bottom: 5px;
     font-weight: bold;
-
 }
 
 input[type="text"],
@@ -363,6 +364,7 @@ textarea {
     text-align: center; 
 }
 
+/* Rodapé */
 footer {
     background-color: #13293D;
     color: #fff;
@@ -401,13 +403,12 @@ footer {
     margin: 0;
 }
 
-
+/* Tipografia */
 h1 {
     font-size: 38px;
     font-weight: bold;
     font-family: 'Roboto', sans-serif;
     text-align: center;
-    
 }
 
 h2, h3 {
@@ -420,6 +421,7 @@ p {
     font-size: 16px;   
 }
 
+/* Seções (Geral) */
 section {
     margin: 0 auto;
     padding: 24px 15%;
@@ -433,11 +435,12 @@ section {
     margin-bottom: 24px; 
 }
 
-.subtitle{
+.subtitle {
     font-size: 18px;
     font-family: 'Roboto', sans-serif;
 }
 
+/* Botoes */
 .input-button {
     background-color: #FF7F50;
     color: #13293D;
@@ -464,6 +467,7 @@ footer {
     text-align: center;
 }
 
+/* Media Queries */
 @media screen and (max-width: 768px) {
     /* Navbar */
     .navbar {
@@ -496,7 +500,7 @@ footer {
         margin-top: 20px; 
     }
 
-    /* Sections */
+    /* Seçoes */
     .services-wrapper,
     .portfolio-cards,
     .timeline,
@@ -524,7 +528,7 @@ footer {
         font-size: 24px;
     }
 
-    /* Form Container */
+    /* Formulario */
     .form-container {
         flex-direction: column;
     }
@@ -534,7 +538,7 @@ footer {
         margin-bottom: 20px; 
     }
 
-    /* Footer */
+    /* Rodapé */
     .footer-content {
         flex-direction: column;
         align-items: center;
